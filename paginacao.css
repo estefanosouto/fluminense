@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.page-number, .next-page {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #820F1C; /* Vermelho do Fluminense */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.page-number:hover, .next-page:hover {
+    background-color: #820F1C;
+    color: white;
+}
+
+.next-page {
+    margin-left: 10px;
+}
+
+/* Estilo para a página atual (opcional) */
+.current-page {
+    background-color: #820F1C;
+    color: white;
+    font-weight: bold;
+}

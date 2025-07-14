@@ -1,0 +1,16 @@
+fluminense-fc/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── escudo.png
+│   ├── fundo-laranja.jpg
+│   ├── estadio.jpg
+│   └── jogadores/
+│       ├── fred.jpg
+│       ├── conehcao.jpg
+│       └── ...
+└── videos/
+    └── highlights.mp4
